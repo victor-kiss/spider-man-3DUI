@@ -23,12 +23,12 @@ export default function Scene() {
     let windowWidth = window.innerWidth;
 
     if (windowWidth < 576) {
-      state.camera.position.set(0, 2, 7);
+      state.camera.position.set(0, 2, 6.5);
       state.camera.updateProjectionMatrix();
       textRef.current.position.x = 2;
       spiderManRef.current.position.x = -4;
       spiderManRef.current.position.y = 4.6;
-      buttonRef.current.position.x = -1;
+      buttonRef.current.position.x = 0;
     }
 
     if (windowWidth > 576 && windowWidth <= 820) {
