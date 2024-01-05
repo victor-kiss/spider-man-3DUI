@@ -17,7 +17,7 @@ export default function Home() {
       >
         <div className="w-[40em]">
           <h1 className="font-bold text-gray-100 sm:text-3xl text-2xl p-4">
-            Bitten by a radioactive spider, Peter Parker's arachnid abilities
+            Bitten by a radioactive spider, Peter Parker&apos;s arachnid abilities
             give him amazing powers he uses to help others, while his personal
             life continues to offer plenty of obstacles. With amazing
             spider-like abilities, teenage science whiz Peter Parker fights
