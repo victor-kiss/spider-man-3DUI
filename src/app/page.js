@@ -25,7 +25,7 @@ export default function Home() {
           </h1>
         </div>
       </section>
-      <section className="h-screen flex flex-col justify-center  items-center  w-client items-center flex-wrap p-6">
+      <section className="h-screen flex flex-col justify-center  items-center  w-client items-center  p-6">
         <h2 className="font-bold text-gray-300 text-4xl text-center mb-4">
          FRIST  APPEARANCE
         </h2>
@@ -46,7 +46,7 @@ export default function Home() {
           <h2 className="font-bold text-gray-100 text-4xl text-center">
             LAST GAMES:
           </h2>
-          <div className="flex justify-center align-center w-client items-center flex-wrap">
+          <div className="flex justify-center align-center w-client items-center max-[820px]:flex-col">
             <div className="bg-[#202028] sm:w-[30em] rounded-lg sm:h-[40em] my-8 shadow-xl mx-8 relative">
               <Image
                 src="/images/spider_man2.png"
