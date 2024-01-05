@@ -58,7 +58,7 @@ export default function Home() {
               />
               <div className="w-full p-4" alt="spider-man 2">
                 <span className="font-bold text-gray-300 text-xl my-2">
-                  Marvel's Spider-Man 2
+                  Marvel&apos;s Spider-Man 2
                 </span>
                 <span className="text-gray-300 my-2 block">released: 2023</span>
                 <p className=" text-gray-400 mt-10">
