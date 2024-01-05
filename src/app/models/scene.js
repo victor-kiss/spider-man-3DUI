@@ -23,7 +23,7 @@ export default function Scene() {
     let windowWidth = window.innerWidth;
 
     if (windowWidth < 576) {
-      state.camera.position.set(0, 2, 8);
+      state.camera.position.set(0, 2, 7);
       state.camera.updateProjectionMatrix();
       textRef.current.position.x = 2;
       spiderManRef.current.position.x = -4;
