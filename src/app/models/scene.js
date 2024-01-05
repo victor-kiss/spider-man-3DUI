@@ -33,7 +33,7 @@ export default function Scene() {
 
     if (windowWidth > 576 && windowWidth <= 820) {
       spiderManRef.current.position.x = -1;
-      buttonRef.current.position.x = -0.8;
+      buttonRef.current.position.x = -0.4;
       buttonRef.current.position.z = -1;
       state.camera.position.set(0, 1, 11);
       state.camera.updateProjectionMatrix();
