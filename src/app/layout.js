@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <footer className="bg-neutral-900 p-4">
           <span className="block text-gray-300 text-center"> 2024</span>
           <span className="block text-gray-300 text-center">
-            Developed by 
+            Developed by{" "}
             <Link
               href="https://devssik.com.br/"
               rel="noreferrer"
