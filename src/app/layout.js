@@ -15,9 +15,9 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <main>{children}</main>
         <footer className="bg-neutral-900 p-4">
-          <span className="block text-gray-300 text-center"> 2023</span>
+          <span className="block text-gray-300 text-center"> 2024</span>
           <span className="block text-gray-300 text-center">
-            Developed by{" "}
+            Developed by 
             <Link
               href="https://devssik.com.br/"
               rel="noreferrer"
