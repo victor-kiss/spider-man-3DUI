@@ -26,14 +26,14 @@ export default function Scene() {
       state.camera.position.set(0, 2, 8);
       state.camera.updateProjectionMatrix();
       textRef.current.position.x = 2;
-      spiderManRef.current.position.x = -4.7;
+      spiderManRef.current.position.x = -4.4;
       spiderManRef.current.position.y = 4.6;
       buttonRef.current.position.x = -1;
     }
 
     if (windowWidth > 576 && windowWidth <= 820) {
       spiderManRef.current.position.x = -1;
-      buttonRef.current.position.x = -0.4;
+      buttonRef.current.position.x = -0.8;
       buttonRef.current.position.z = -1;
       state.camera.position.set(0, 1, 11);
       state.camera.updateProjectionMatrix();
