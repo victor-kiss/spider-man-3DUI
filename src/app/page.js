@@ -12,7 +12,7 @@ export default function Home() {
     <>
     <Experience/>
       <section
-        className="h-screen p-6 flex justify-center items-center align-center content-center  w-auto"
+        className="h-screen p-6 flex justify-center items-center align-center content-center  w-full"
         id="discovery"
       >
         <div className="w-[40em]">
