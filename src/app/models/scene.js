@@ -26,7 +26,7 @@ export default function Scene() {
       state.camera.position.set(0, 2, 6.5);
       state.camera.updateProjectionMatrix();
       textRef.current.position.x = 2;
-      spiderManRef.current.position.x = -4;
+      spiderManRef.current.position.x = -3;
       spiderManRef.current.position.y = 4.6;
       buttonRef.current.position.x = 0;
     }
